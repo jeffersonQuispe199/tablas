@@ -13,11 +13,16 @@
     <div class="bg-scanline"></div>
 
     <header class="header">
-        <button onclick="generarTablas()" class="btn-probar">SISTEMA: PROBAR</button>
+        <div class="input-group">
+        <label for="numeroTabla">TABLA DE MULTIPLICACION:</label>
+        <input type="number" id="numeroTabla" placeholder="0" min="1" max="99">
+    </div>
+        <button onclick="generarTablas()" class="btn-probar">ESTUDIAR TABLA</button>
+
     </header>
 
     <main class="container">
-        <h1 class="glitch-text" data-text="TABLA DEL 3">TABLA DEL 3</h1>
+        <h1 class="glitch-text" data-text="TABLA DEL 3">TABLAs DE MULTIPLICAR </h1>
         
         <div class="table-container" id="tablas">
             <div class="row"><span>01 > 3 x 1</span> <span>03</span></div>
@@ -34,7 +39,7 @@
     </main>
 
     <footer class="footer">
-        <p>[SISTEMA OPERATIVO]: Creado por: ++EL JEFF++ - Acceso Concedido</p>
+        <p>[SISTEMA OPERATIVO 0.1]: Creado por: ++EL JEFF++ - Acceso Concedido</p>
     </footer>
 </body>
 </html>
